@@ -20,5 +20,9 @@ node_modules
 *.tsbuildinfo
 next-env.d.ts
 
-#github
-.github
+#package-lock.json
+package-lock.json
+
+#test
+test-results
+

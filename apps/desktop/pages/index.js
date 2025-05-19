@@ -8,7 +8,7 @@ export default function Home() {
 
   const callApi = async () => {
     try {
-      const res = await fetch(`${apiUrl}/api/hello?firstName=${encodeURIComponent(name)}`)
+      const res = await fetch(`http://localhost:3001/api/hello?firstName=${encodeURIComponent(name)}`)
       const data = await res.json()
       setMessage(data.message)
     } catch (err) {
