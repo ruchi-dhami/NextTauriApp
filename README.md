@@ -1,6 +1,4 @@
 
-# RainPath Full Stack Developer Intern Mini Project
-
 ## Project Overview
 
 This project contains two main parts:
